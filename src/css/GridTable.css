@@ -1,0 +1,30 @@
+.grid-table {
+  padding: 20px 20%;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+
+th{
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.grid-table-price {
+  background-color: yellowgreen;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px green;;
+  border-radius: 2px;
+  cursor: pointer;
+}

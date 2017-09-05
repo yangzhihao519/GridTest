@@ -1,0 +1,42 @@
+.grid-map{
+    padding: 20px 20%;
+}
+.grid {
+  padding: 20px 20%;
+}
+
+.grid-item {
+  padding-bottom: 2.5%;
+  width: 4.7%;
+  border-radius: 50px;
+  position: relative;
+}
+
+.grid-item-active {
+    background: yellowgreen;
+    cursor: pointer;
+}
+
+.grid-item-inactive {
+    background: lightgray;
+    cursor: not-allowed;
+}
+
+.grid-item-hover-over{
+  visibility: hidden;
+  width: 150px;
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 1;
+}
+
+.grid-item:hover .grid-item-hover-over {
+    visibility: visible;
+}
+
+.grid-item-searched {
+    border: 1px solid lightcoral;
+}

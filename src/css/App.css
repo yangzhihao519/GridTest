@@ -1,0 +1,63 @@
+.App {
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+}
+
+.SearchInput {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: lightslategrey;
+}
+
+.SearchInput h2{
+  color: white;
+}
+
+.SearchInput p{
+  color: lightyellow;
+}
+
+input[type=text], select {
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type=submit] {
+    background-color: yellowgreen;
+    color: white;
+    margin: 5px;
+    padding: 10px 40px;
+    border: none;
+    border: 1px solid yellowgreen;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.SearchInput button{
+    background-color: lightgray;
+    color: white;
+    margin: 5px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Results {
+  margin-bottom: 40px;
+}
+
