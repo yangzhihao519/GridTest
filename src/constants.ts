@@ -7,7 +7,7 @@ const MIN_NUMBER_OF_LOCATIONS = 0; // Assumption: The minimum case is there is n
 const MAX_NUMBER_OF_TICKETS = 100; // Assumption: the maximum number of tickets for one event is 100.
 const MIN_NUMBER_OF_TICKETS = 0; // Requirement: Each event has zero or more tickets.
 const MAX_TICKET_PRICE = 1000; // Assumption: the maximum price for one ticket is 1000 US dollars.
-const MIN_TICKET_PRICE = 0.01; // Each ticket has a non-zero price.
+const MIN_TICKET_PRICE = 0.01; // Requirement: Each ticket has a non-zero price. Assumption: the minimum ticket price is 0.01 US dollars.
 
 const NUMBER_OF_CLOSEST_LOCATIONS = 5; // Requirment: Returns a list of the five closest events
 
