@@ -11,7 +11,7 @@ This project was developed for the Viagogo Coding Challenge and was bootstrapped
 
 Setting up the project,
 
-> clone the repository
+> clone the repository and 
 > run `npm install`
 
 Then, go to the project directory,
@@ -75,7 +75,7 @@ coded in, easy to read, and clearly laid out.
 > 1. Set up backend with database, construct the APIs for retrieving data, processing the request faster for the users;
 > 2. Add loading animation when the searching request is processing to keep th users being patient;
 > 3. Improve the current algorithms: 1) Algorithm in searching closest locations to a coordinate; 2) Algorithm in sorting the ticket prices;
-> 4. Add zoom-in and zoom out functions to the Grid Map of coordinates.
+> 4. Add zoom in and zoom out functions to the Grid Map of coordinates.
 
 
 ### Example Program Run
