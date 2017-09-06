@@ -24,7 +24,7 @@
 
 .grid-item-hover-over{
   visibility: hidden;
-  width: 150px;
+  width: 180px;
   background-color: rgba(0,0,0,0.8);
   color: #fff;
   padding: 0px 10px;

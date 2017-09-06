@@ -29,9 +29,12 @@ function GridTable({ locations, isSearchedResults, inputValueX, inputValueY }: P
                 <td>({location.coordinateX},{location.coordinateY})</td> 
                 { isSearchedResults ? <td>{location.getDistance(inputValueX,inputValueY)}</td> : ''}
                 <td>
+                  
                   <div className={"grid-table-price"}>
-                    {location.event.getCheapestTicketPrice()}
-                  </div>
+                    {location.event.hasTicket() ? 
+                    <div className={"grid-table-price-active"}>{location.event.getCheapestTicketPrice()}</div> :
+                    <div className={"grid-table-price-inactive"}>Sold out</div>}
+                  </div> 
                 </td>
               </tr>;
           })}

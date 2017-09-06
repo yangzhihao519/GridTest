@@ -48,7 +48,6 @@ function GridMap({ locations, isSearchedResults, inputValueX, inputValueY }: Pro
                 // Color this grid with gray and show only show the coordinate of this location
                 GridMapHTML.push(<div className={"grid-item grid-item-inactive " + searchedLocationStyle} style={{display:"inline-block"}}>
                     <div className={"grid-item-hover-over"}>
-                            <p>No event</p>
                             <p>Location:({j-10},{10-i})</p>
                         </div>
                  </div>);
