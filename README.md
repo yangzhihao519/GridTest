@@ -11,8 +11,9 @@ This project was developed for the Viagogo Coding Challenge and was bootstrapped
 
 Setting up the project: clone the repository and go to the project directory, and run
 
-`npm install`
-`npm run start`
+> `npm install`
+
+> `npm run start`
 
 Then, open 
 
