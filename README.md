@@ -9,16 +9,12 @@ This project was developed for the Viagogo Coding Challenge and was bootstrapped
 
 ## Run the app in development mode
 
-Setting up the project,
+Setting up the project: clone the repository and go to the project directory, and run
 
-> clone the repository and 
-> run `npm install`
+`npm install`
+`npm run start`
 
-Then, go to the project directory,
-
->  run `npm run start`
-
-Open 
+Then, open 
 
 > [http://localhost:3000](http://localhost:3000) 
 
